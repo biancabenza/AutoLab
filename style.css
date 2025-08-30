@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    background-color: rgb(59, 59, 147);
+}
+
+.logobar {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-left: 7vw;
+} 
+
+.meniubar {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 7vw;
+    
+}
+
+a  { color: white;
+     padding: 2rem;
+     font-size: 1.7rem;
+     text-decoration: none;
+     font-family: "Alumni Sans Pinstripe", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+
+}
+
+.fa-solid {
+    color: white;
+    padding: 1rem;
+}
+
+.navtitle {
+    color: white;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
